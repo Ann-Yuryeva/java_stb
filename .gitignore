@@ -13,3 +13,5 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 .DS_Store
+*.class
+sandbox/out/test/classes/META-INF/sandbox.main.kotlin_module
