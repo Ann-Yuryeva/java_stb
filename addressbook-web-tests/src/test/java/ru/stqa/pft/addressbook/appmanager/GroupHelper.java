@@ -9,7 +9,7 @@ import ru.stqa.pft.addressbook.model.GroupData;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GroupHelper extends HelperBase{
+public class GroupHelper extends HelperBase {
 
   public GroupHelper(WebDriver wd) {
     super(wd);
@@ -57,20 +57,20 @@ public class GroupHelper extends HelperBase{
   }
 
   public boolean isThereAGroup() {
-    return isElementPresent (By.name("selected[]"));
+    return isElementPresent(By.name("selected[]"));
   }
 
   public int getGroupCount() {
-   return wd.findElements(By.name("selected[]")).size();
+    return wd.findElements(By.name("selected[]")).size();
   }
 
   public List<GroupData> getGroupList() {
     List<GroupData> groups = new ArrayList<GroupData>();
     List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
-    for ( WebElement element : elements ){
+    for (WebElement element : elements) {
       String name = element.getText();
-      String id = element.findElement(By.tagName("input")).getAttribute("value");
-      GroupData group = new GroupData(id,name,null,null);
+      int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+      GroupData group = new GroupData(id, name, null, null);
       groups.add(group);
     }
     return groups;
