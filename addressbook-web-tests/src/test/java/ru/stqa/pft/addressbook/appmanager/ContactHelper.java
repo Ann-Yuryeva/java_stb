@@ -7,11 +7,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.stqa.pft.addressbook.model.ContactData;
 import ru.stqa.pft.addressbook.model.Contacts;
-import ru.stqa.pft.addressbook.model.Groups;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class ContactHelper extends HelperBase {
 
@@ -69,8 +66,8 @@ public class ContactHelper extends HelperBase {
   public void create(ContactData contactData, boolean b) {
     initContactCreation();
     fillContactForm(new ContactData().withFirstname("John").withMiddlename("Kenny").withLastname("Johnas")
-            .withAddress("LA").withNickname("Johny").withMobile("123456789")
-            .withCompany("AT").withGroup("test1").withHome("123456789").withEmail("test@test.com"), true);
+            .withAddress("LA").withNickname("Johny").withMobilePhone("123456789").withWorkPhone("123456789")
+            .withCompany("AT").withGroup("test1").withHomePhone("123456789").withEmail("test@test.com"), true);
     ;
     submitContactCreation();
     contactCache = null;
@@ -118,4 +115,19 @@ public class ContactHelper extends HelperBase {
   }
 
 
+  public ContactData infoFromEditForm(ContactData contact) {
+    initContactModificationById(contact.getId());
+    String firstname = wd.findElement(By.name("firstname")).getAttribute("value");
+    String lastname = wd.findElement(By.name("lastname")).getAttribute("value");
+    String home = wd.findElement(By.name("home")).getAttribute("value");
+    String mobile = wd.findElement(By.name("mobile")).getAttribute("value");
+    String work = wd.findElement(By.name("work")).getAttribute("value");
+    wd.navigate().back();
+    return new ContactData().withId(contact.getId()).withFirstname(firstname).withLastname(lastname).
+            withHomePhone(home).withMobilePhone(mobile).withWorkPhone(work);
+
+  }
+
+//  private void initContactModificationById (int id){
+//    wd.findElement(By.cssSelector(String.format("a[href='edit.php?id=%s']",id))).click();
 }
