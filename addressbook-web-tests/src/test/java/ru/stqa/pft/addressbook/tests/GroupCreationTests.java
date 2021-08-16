@@ -9,20 +9,27 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GroupCreationTests extends TestBase {
 
-  @Test
+  @Test(enabled = true)
   public void testGroupCreation() throws Exception {
     app.goTo().groupPage();
     Groups before = app.group().all();
     GroupData group = new GroupData().withName("test2");
     app.group().create(group);
+    assertThat(app.group().count(),equalTo(before.size() + 1));
     Groups after = app.group().all();
-    assertThat(after.size(),equalTo(before.size() + 1));
-
-    // поток объектов типа groupData превращаем в поток идентификаторов(чисел) с помощью mapToInt
-    // mapToInt(g) -> g.getId() - в качестве параментра принимает группу а в качестве результата выдает иден-тор группы,
-    // т.е. преобразует объект в число
 
     assertThat(after, equalTo(
             before.withAdded(group.withId(after.stream().mapToInt((g) -> g.getId()).max().getAsInt()))));
+  }
+
+  @Test(enabled = false)
+  public void tesBadtGroupCreation() throws Exception {
+    app.goTo().groupPage();
+    Groups before = app.group().all();
+    GroupData group = new GroupData().withName("test2");
+    app.group().create(group);
+    assertThat(app.group().count(),equalTo(before.size()));
+    Groups after = app.group().all();
+    assertThat(after, equalTo(before));
   }
 }
