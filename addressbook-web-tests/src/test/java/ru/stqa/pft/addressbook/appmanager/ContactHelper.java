@@ -126,6 +126,16 @@ public class ContactHelper extends HelperBase {
   }
 
   private void initContactModificationById(int id) {
-    wd.findElement(By.xpath("//img[@alt='Edit']")).click();
+    wd.findElement(By.cssSelector(String.format("a[href='edit.php?id=%s']", id))).click();
+
+    // другие  примеры:
+// 1. WebElement checkbox = wd.findElement(By.cssSelector(String.format("input[value='%']",id)));
+//    WebElement row = checkbox.findElement(By.xpath("./../.."));
+//    List<WebElement> cells = row.findElements(By.tagName("td"));
+//    cells.get(7).findElement(By.tagName("a")).click();
+// 2.  wd.findElement(By.xpath(String.format("//input[@value='%s']/../../tf[8]/a", id)));
+// 3.  wd.findElement(By.xpath(String.format("//tr[.//input[@value='%s']]/td[8]/a", id)));
+//    XPATH нумерация - с 1,css нумерация - с 0.
+
   }
 }
