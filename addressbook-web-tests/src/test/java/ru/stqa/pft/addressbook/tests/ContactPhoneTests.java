@@ -19,11 +19,21 @@ public class ContactPhoneTests extends TestBase {
     }
   }
 
-  @Test(enabled = true)
+  @Test
   public void testContactPhones() {
     app.goTo().HomePage();
     ContactData contact = app.contact().all().iterator().next();
     ContactData contactInfoFromEditForm = app.contact().infoFromEditForm(contact);
 
+    assertThat(contact.getHome(), equalTo(cleaned(contactInfoFromEditForm.getHome())));
+    assertThat(contact.getMobile(), equalTo(cleaned(contactInfoFromEditForm.getMobile())));
+    assertThat(contact.getWork(), equalTo(cleaned(contactInfoFromEditForm.getWork())));
+
+  }
+
+  public String cleaned(String phone){
+    return phone.replaceAll("\\s","").replaceAll("[-()]","");
+
+    // "\\s" - пробелы, табуляция
   }
 }
