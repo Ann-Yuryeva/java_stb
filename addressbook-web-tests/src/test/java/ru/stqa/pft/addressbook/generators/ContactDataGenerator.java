@@ -39,14 +39,14 @@ public class ContactDataGenerator {
 
   private void run() throws IOException {
     List<ContactData> contacts = generateContacts(count);
-    if (format.equals("json")) {
-      saveAsJson(contacts, new File(file));
-    } else {
-      System.out.println("Unrecognized format");
+     if (format.equals("json")) {
+        saveAsJson(contacts, new File(file));
+      } else {
+        System.out.println("Unrecognized format");
+      }
     }
-  }
 
-  private void saveAsJson(List<ContactData> contacts, File file) throws IOException {
+    private void saveAsJson(List<ContactData> contacts, File file) throws IOException {
     Gson gson = new GsonBuilder().setPrettyPrinting().excludeFieldsWithoutExposeAnnotation().create();
     String json = gson.toJson(contacts);
     Writer writer = new FileWriter(file);
@@ -60,10 +60,10 @@ public class ContactDataGenerator {
     for (int i = 0; i < count; i++) {
       contacts.add(new ContactData().withFirstname(String.format("John%s", i)).withMiddlename(String.format("Kenny%s", i))
               .withLastname(String.format("Johnas%s", i)).withAddress(String.format("LA%s", i))
-
               .withNickname(String.format("Johny%s", i)).withMobilePhone(String.format("123456789%s", i))
               .withCompany(String.format("AT%s", i)).withHomePhone(String.format("123456789%s", i))
-              .withWorkPhone(String.format("123456789%s", i)).withEmail(String.format("test%s@test.com", i)));
+              .withWorkPhone(String.format("123456789%s", i)).withEmail(String.format("test%s@test.com", i))
+              .withGroup("test1").withPhoto(new File("src/test/resources/pftru.png")));
     }
     return contacts;
   }

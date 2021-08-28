@@ -1,5 +1,4 @@
 package ru.stqa.pft.addressbook.model;
-
 import com.google.gson.annotations.Expose;
 
 import java.io.File;
@@ -23,6 +22,7 @@ public class ContactData {
   private String work;
   @Expose
   private String company;
+  @Expose
   private String group;
   @Expose
   private String mobile;
@@ -192,7 +192,7 @@ public class ContactData {
   @Override
   public String toString() {
     return "ContactData{" +
-            "id='" + id + '\'' +
+            "id=" + id +
             ", firstname='" + firstname + '\'' +
             ", lastname='" + lastname + '\'' +
             '}';
