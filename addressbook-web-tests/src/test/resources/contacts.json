@@ -1,0 +1,38 @@
+[
+  {
+    "firstname": "John0",
+    "middlename": "Kenny0",
+    "lastname": "Johnas0",
+    "address": "LA0",
+    "nickname": "Johny0",
+    "home": "1234567890",
+    "work": "1234567890",
+    "company": "AT0",
+    "mobile": "1234567890",
+    "email": "test0@test.com"
+  },
+  {
+    "firstname": "John1",
+    "middlename": "Kenny1",
+    "lastname": "Johnas1",
+    "address": "LA1",
+    "nickname": "Johny1",
+    "home": "1234567891",
+    "work": "1234567891",
+    "company": "AT1",
+    "mobile": "1234567891",
+    "email": "test1@test.com"
+  },
+  {
+    "firstname": "John2",
+    "middlename": "Kenny2",
+    "lastname": "Johnas2",
+    "address": "LA2",
+    "nickname": "Johny2",
+    "home": "1234567892",
+    "work": "1234567892",
+    "company": "AT2",
+    "mobile": "1234567892",
+    "email": "test2@test.com"
+  }
+]
