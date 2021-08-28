@@ -15,3 +15,5 @@ gradle-app.setting
 .DS_Store
 *.class
 sandbox/out/test/classes/META-INF/sandbox.main.kotlin_module
+*.log
+*.log
