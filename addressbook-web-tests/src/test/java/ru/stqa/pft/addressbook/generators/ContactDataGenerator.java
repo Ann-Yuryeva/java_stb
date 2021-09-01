@@ -57,7 +57,7 @@ public class ContactDataGenerator {
       for (ContactData contact : contacts) {
         writer.write(String.format("%s;%s;%s;%s;%s;%s;%s;%s\n", contact.getFirstname(), contact.getMiddlename(), contact.getLastname(),
                 contact.getAddress(), contact.getNickname(), contact.getMobile(), contact.getCompany(), contact.getHome(),
-                contact.getWork(), contact.getEmail(), contact.getGroup(), contact.getPhoto()));
+                contact.getWork(), contact.getEmail(),contact.getEmail2(), contact.getEmail3(),contact.getGroup(), contact.getPhoto()));
       }
     }
   }
@@ -87,7 +87,8 @@ public class ContactDataGenerator {
               .withLastname(String.format("Johnas%s", i)).withAddress(String.format("LA%s", i))
               .withNickname(String.format("Johny%s", i)).withMobilePhone(String.format("123456789%s", i))
               .withCompany(String.format("AT%s", i)).withHomePhone(String.format("123456789%s", i))
-              .withWorkPhone(String.format("123456789%s", i)).withEmail(String.format("test%s@test.com", i))
+              .withWorkPhone(String.format("123456789%s", i))
+              .withEmail(String.format("test.%s@test.com", i)).withEmail2(String.format("test2.%s@test.com", i)).withEmail3(String.format("test3.%s@test.com", i))
               .withGroup("test1").withPhoto(new File("src/test/resources/pftru.png")));
     }
     return contacts;

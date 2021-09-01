@@ -10,35 +10,9 @@
     <company>AT0</company>
     <group>test1</group>
     <mobile>1234567890</mobile>
-    <email>test0@test.com</email>
-    <photo>src/test/resources/pftru.png</photo>
-  </contact>
-  <contact>
-    <firstname>John1</firstname>
-    <middlename>Kenny1</middlename>
-    <lastname>Johnas1</lastname>
-    <address>LA1</address>
-    <nickname>Johny1</nickname>
-    <home>1234567891</home>
-    <work>1234567891</work>
-    <company>AT1</company>
-    <group>test1</group>
-    <mobile>1234567891</mobile>
-    <email>test1@test.com</email>
-    <photo>src/test/resources/pftru.png</photo>
-  </contact>
-  <contact>
-    <firstname>John2</firstname>
-    <middlename>Kenny2</middlename>
-    <lastname>Johnas2</lastname>
-    <address>LA2</address>
-    <nickname>Johny2</nickname>
-    <home>1234567892</home>
-    <work>1234567892</work>
-    <company>AT2</company>
-    <group>test1</group>
-    <mobile>1234567892</mobile>
-    <email>test2@test.com</email>
+    <email>test.0@test.com</email>
+    <email2>test2.0@test.com</email2>
+    <email3>test3.0@test.com</email3>
     <photo>src/test/resources/pftru.png</photo>
   </contact>
 </list>

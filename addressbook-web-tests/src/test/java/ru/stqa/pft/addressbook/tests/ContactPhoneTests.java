@@ -3,6 +3,8 @@ package ru.stqa.pft.addressbook.tests;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.ContactData;
+
+import java.io.File;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -11,12 +13,13 @@ public class ContactPhoneTests extends TestBase {
 
   @BeforeMethod
   public void ensurePreconditions() {
-    app.goTo().HomePage();
-    if (app.contact().all().size() == 0) {
-      app.contact().create(new ContactData().withFirstname("John").withMiddlename("Kenny").withLastname("Johnas")
-              .withAddress("LA").withNickname("Johny").withMobilePhone("123456789").withWorkPhone("123456789")
-              .withCompany("AT").withGroup("test1").withHomePhone("123456789")
-              .withEmail("111@test.com").withEmail2("222@test.com").withEmail3("333@test.com"), true);
+    if (app.db().contacts().size() == 0) {
+      app.goTo().HomePage();
+      app.contact().create(new ContactData()
+              .withFirstname("John").withMiddlename("Kenny").withLastname("Johnas")
+              .withAddress("LA").withNickname("Johny").withMobilePhone("123456789")
+              .withCompany("AT").withGroup("test1").withHomePhone("123456789").withWorkPhone("123456789")
+              .withEmail("111@test.com").withEmail2("222@test.com").withEmail3("333@test.com").withPhoto(new File("src/test/resources/pftru.png")), true);
     }
   }
 
