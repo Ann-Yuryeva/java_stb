@@ -24,6 +24,7 @@ public class ContactData {
   private String firstname;
 
   @Expose
+  @Column(name = "middlename")
   private String middlename;
 
   @Expose
