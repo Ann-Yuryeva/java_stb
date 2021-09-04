@@ -8,11 +8,11 @@
     <home>1234567890</home>
     <work>1234567890</work>
     <company>AT0</company>
-    <group>test1</group>
     <mobile>1234567890</mobile>
     <email>test.0@test.com</email>
     <email2>test2.0@test.com</email2>
     <email3>test3.0@test.com</email3>
     <photo>src/test/resources/pftru.png</photo>
+    <groups/>
   </contact>
 </list>

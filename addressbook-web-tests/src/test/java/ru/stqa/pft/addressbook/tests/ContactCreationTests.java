@@ -8,6 +8,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.ContactData;
 import ru.stqa.pft.addressbook.model.Contacts;
+import ru.stqa.pft.addressbook.model.Groups;
 
 import java.io.*;
 import java.util.Iterator;
@@ -63,5 +64,23 @@ public class ContactCreationTests extends TestBase {
             before.withAdded(contact.withId(after.stream().mapToInt((c) -> c.getId()).max().getAsInt()))));
 
     verifyContactListInUI();
+
+  }
+
+  @Test(enabled = false)
+  public void testBadNameContactCreation() throws Exception {
+    Groups groups = app.db().groups();
+    File photo = new File("src/test/resources/pftru.png");
+    ContactData contact = new ContactData()
+            .withFirstname("John").withMiddlename("Kenny")
+            .withLastname("Johnas").withAddress("LA")
+           .withMobilePhone("123456789%s").withPhoto(photo).inGroup(groups.iterator().next());
+    app.goTo().HomePage();
+    Contacts before =  app.db().contacts();
+    app.contact().create(contact, true);
+    assertThat(app.contact().count(), equalTo(before.size()));
+    Contacts after = app.db().contacts();
+    assertThat(after, equalTo(
+            before));
   }
 }
