@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 
 public class ApplicationManager {
@@ -22,8 +23,7 @@ public class ApplicationManager {
 
 
   private MailHelper mailHelper;
-  //TODO: Раскоммитеть после корректной работы FTP (лекция 8.5)
-//  private JamesHelper jamesHelper;
+  private JamesHelper jamesHelper;
 
   public ApplicationManager(String browser) {
     this.browser = browser;
@@ -72,7 +72,7 @@ public class ApplicationManager {
       } else if (browser.equals(BrowserType.SAFARI)) {
         wd = new SafariDriver();
       }
-//        wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
       wd.get(properties.getProperty("web.baseUrl"));
     }
     return wd;
@@ -84,13 +84,12 @@ public class ApplicationManager {
     }
     return mailHelper;
   }
-
-//    public JamesHelper james(){
-//    if (jamesHelper == null){
-//      jamesHelper = new JamesHelper(this);
-//    }
-//    return jamesHelper;
-//    }
+    public JamesHelper james(){
+    if (jamesHelper == null){
+      jamesHelper = new JamesHelper(this);
+    }
+    return jamesHelper;
+    }
 }
 
 
