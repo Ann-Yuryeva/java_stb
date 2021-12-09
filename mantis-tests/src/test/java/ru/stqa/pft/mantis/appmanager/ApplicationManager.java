@@ -20,8 +20,9 @@ public class ApplicationManager {
   private RegistrationHelper registrationHelper;
   private FtpHelper ftp;
 
+
+  private MailHelper mailHelper;
   //TODO: Раскоммитеть после корректной работы FTP (лекция 8.5)
-//  private MailHelper mailHelper;
 //  private JamesHelper jamesHelper;
 
   public ApplicationManager(String browser) {
@@ -55,8 +56,8 @@ public class ApplicationManager {
     return registrationHelper;
   }
 
-  public FtpHelper ftp(){
-    if (ftp == null){
+  public FtpHelper ftp() {
+    if (ftp == null) {
       ftp = new FtpHelper(this);
     }
     return ftp;
@@ -77,13 +78,12 @@ public class ApplicationManager {
     return wd;
   }
 
-  //TODO: Раскоммитеть после корректной работы FTP (лекция 8.5)
-//  public MailHelper mail(){
-//    if (mailHelper == null) {
-//      mailHelper = new MailHelper(this);
-//    }
-//    return mailHelper;
-//    }
+  public MailHelper mail() {
+    if (mailHelper == null) {
+      mailHelper = new MailHelper(this);
+    }
+    return mailHelper;
+  }
 
 //    public JamesHelper james(){
 //    if (jamesHelper == null){
@@ -91,6 +91,6 @@ public class ApplicationManager {
 //    }
 //    return jamesHelper;
 //    }
-  }
+}
 
 
