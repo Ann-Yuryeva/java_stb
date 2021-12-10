@@ -1,6 +1,5 @@
 package ru.stqa.pft.mantis.appmanager;
 
-import com.sun.tools.javac.util.List;
 import org.apache.commons.net.telnet.TelnetClient;
 import ru.stqa.pft.mantis.model.MailMessage;
 
@@ -9,6 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class JamesHelper {
@@ -77,7 +77,7 @@ public class JamesHelper {
     readUntil("Password:");
     write(password);
 
-    readUntil("Welcome " + login + " . HELP for a list of commands");
+    readUntil("Welcome " +login+". HELP for a list of commands");
   }
 
   private String readUntil(String pattern) {
@@ -140,7 +140,7 @@ public class JamesHelper {
         return allMail;
       }
       try {
-        Thread.sleep(1000);
+        Thread.sleep(10000);
       } catch (InterruptedException e) {
         e.printStackTrace();
       }
@@ -150,12 +150,12 @@ public class JamesHelper {
 
   public List<MailMessage> getAllMail(String username, String password) throws MessagingException {
     Folder inbox = openInbox(username, password);
-    List<MailMessage> messages = (List<MailMessage>) Arrays.asList(inbox.getMessages()).stream().map((m) -> toModelMail(m)).collect(Collectors.toList());
+    List<MailMessage> messages = Arrays.asList(inbox.getMessages()).stream().map((m) -> toModelMail(m)).collect(Collectors.toList());
     closeFolder(inbox);
     return messages;
   }
 
-  public static MailMessage toModelMail(Message m) {
+  public static MailMessage toModelMail (Message m) {
     try {
       return new MailMessage(m.getAllRecipients()[0].toString(), (String) m.getContent());
     } catch (MessagingException e) {
