@@ -20,10 +20,9 @@ public class ApplicationManager {
   private String browser;
   private RegistrationHelper registrationHelper;
   private FtpHelper ftp;
-
-
+  private DbHelper dbHelper;
   private MailHelper mailHelper;
-  private JamesHelper jamesHelper;
+//  private JamesHelper jamesHelper;
 
   public ApplicationManager(String browser) {
     this.browser = browser;
@@ -72,7 +71,7 @@ public class ApplicationManager {
       } else if (browser.equals(BrowserType.SAFARI)) {
         wd = new SafariDriver();
       }
-        wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+      wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
       wd.get(properties.getProperty("web.baseUrl"));
     }
     return wd;
@@ -84,12 +83,20 @@ public class ApplicationManager {
     }
     return mailHelper;
   }
-    public JamesHelper james(){
-    if (jamesHelper == null){
-      jamesHelper = new JamesHelper(this);
+
+//  public JamesHelper james() {
+//    if (jamesHelper == null) {
+//      jamesHelper = new JamesHelper(this);
+//    }
+//    return jamesHelper;
+//  }
+
+  public DbHelper db() {
+    if (dbHelper == null) {
+      dbHelper = new DbHelper(this);
     }
-    return jamesHelper;
-    }
+    return dbHelper;
+  }
 }
 
 
