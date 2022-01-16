@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="resources:hibernate.cfg.xml/Hibernate" uuid="32e6012d-fbf2-4610-bf06-9c7472409855">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+/Users/a18234453/stb/java_stb/addressbook-web-tests/src/test/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/addressbook?</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="bb48bcb4-98c7-46b1-a365-8f8cf2f1bfd8">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+/Users/a18234453/stb/java_stb/mantis-tests/src/test/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/bugtracker</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="out:test:resources:hibernate.cfg.xml/Hibernate" uuid="c811a669-e4d4-4207-97c6-4807fc1a3b72">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+/Users/a18234453/stb/java_stb/addressbook-web-tests/out/test/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/addressbook?</jdbc-url>
+    </data-source>
+  </component>
+</project>
