@@ -3,7 +3,7 @@ package ru.stqa.pft.rest;
 import java.util.Objects;
 
 public class Issue {
-private int id;
+  private int id;
 
   public int getId() {
     return id;
@@ -48,5 +48,5 @@ private int id;
   }
 
   private String subject;
-private String description;
+  private String description;
 }

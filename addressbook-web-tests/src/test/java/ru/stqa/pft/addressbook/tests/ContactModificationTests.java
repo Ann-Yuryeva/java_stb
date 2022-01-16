@@ -11,6 +11,7 @@ import java.io.File;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
+
 public class ContactModificationTests extends TestBase {
 
 
@@ -37,7 +38,7 @@ public class ContactModificationTests extends TestBase {
     ContactData contact = new ContactData().withId(modifiedContact.getId()).withFirstname("John").withMiddlename("Kenny").withLastname("Johnas")
             .withAddress("LA").withNickname("Johny").withMobilePhone("123456789")
             .withCompany("AT")
-          .inGroup(groups.iterator().next())
+            .inGroup(groups.iterator().next())
             .withHomePhone("123456789").withWorkPhone("123456789")
             .withEmail("111@test.com").withEmail2("222@test.com").withEmail3("333@test.com").withPhoto(new File("src/test/resources/pftru.png"));
     app.goTo().HomePage();

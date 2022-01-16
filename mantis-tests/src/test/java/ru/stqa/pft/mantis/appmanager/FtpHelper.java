@@ -16,7 +16,7 @@ public class FtpHelper {
     ftp = new FTPClient();
   }
 
-//   метод upload - загружает новый файл, но при этом старый временно переименовывает
+  //   метод upload - загружает новый файл, но при этом старый временно переименовывает
   public void upload(File file, String target, String backup) throws IOException {
     ftp.connect(app.getProperty("ftp.host"));
     ftp.login(app.getProperty("ftp.login"), app.getProperty("ftp.password"));
@@ -28,12 +28,12 @@ public class FtpHelper {
   }
 
   // метод restore - восстанавливает старый файл
-    public void restore (String backup, String target) throws IOException {
-      ftp.connect(app.getProperty("ftp.host"));
-      ftp.login(app.getProperty("ftp.login"), app.getProperty("ftp.password"));
-      ftp.deleteFile(target);
-      ftp.rename(backup, target);
-      ftp.disconnect();
-    }
+  public void restore(String backup, String target) throws IOException {
+    ftp.connect(app.getProperty("ftp.host"));
+    ftp.login(app.getProperty("ftp.login"), app.getProperty("ftp.password"));
+    ftp.deleteFile(target);
+    ftp.rename(backup, target);
+    ftp.disconnect();
   }
+}
 

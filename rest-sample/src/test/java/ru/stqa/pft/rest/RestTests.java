@@ -35,14 +35,14 @@ public class RestTests {
   }
 
   private Executor getExecutor() {
-  return  Executor.newInstance().auth("288f44776e7bec4bf44fdfeb1e646490","");
+    return  Executor.newInstance().auth("288f44776e7bec4bf44fdfeb1e646490","");
   }
 
   private int createIssue(Issue newIssue) throws IOException {
     String json = getExecutor().execute(Request.Post("https://bugify.stqa.ru/api/issues.json")
             .bodyForm(new BasicNameValuePair("subject", newIssue.getSubject()),
-                      new BasicNameValuePair("description", newIssue.getDescription())))
-    .returnContent().asString();
+                    new BasicNameValuePair("description", newIssue.getDescription())))
+            .returnContent().asString();
     JsonElement parsed = new JsonParser().parse(json);
     return parsed.getAsJsonObject().get("issue_id").getAsInt();
   }

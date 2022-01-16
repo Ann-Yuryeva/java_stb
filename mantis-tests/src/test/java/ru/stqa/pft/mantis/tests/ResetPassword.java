@@ -16,7 +16,7 @@ import static org.testng.Assert.assertTrue;
 
 public class ResetPassword extends TestBase {
 
-    @BeforeMethod
+  @BeforeMethod
   public void startMailServer() {
     app.mail().start();
   }
@@ -36,12 +36,14 @@ public class ResetPassword extends TestBase {
     app.registration().finish(confirmationLink, newPassword);
     assertTrue(app.newSession().login(username, newPassword));
   }
+
   public String findConfirmationLink(List<MailMessage> mailMessages, String email) {
     MailMessage mailMessage = mailMessages.stream().filter((m) -> m.to.equals(email)).findFirst().get();
     VerbalExpression regex = VerbalExpression.regex().find("http://").nonSpace().oneOrMore().build();
     return regex.getText(mailMessage.text);
   }
-      @AfterMethod(alwaysRun = true)
+
+  @AfterMethod(alwaysRun = true)
   public void stopMailServer() {
     app.mail().stop();
   }

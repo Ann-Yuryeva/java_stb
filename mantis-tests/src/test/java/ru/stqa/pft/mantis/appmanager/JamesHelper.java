@@ -77,7 +77,7 @@ public class JamesHelper {
     readUntil("Password:");
     write(password);
 
-    readUntil("Welcome " +login+". HELP for a list of commands");
+    readUntil("Welcome " + login + ". HELP for a list of commands");
   }
 
   private String readUntil(String pattern) {
@@ -155,7 +155,7 @@ public class JamesHelper {
     return messages;
   }
 
-  public static MailMessage toModelMail (Message m) {
+  public static MailMessage toModelMail(Message m) {
     try {
       return new MailMessage(m.getAllRecipients()[0].toString(), (String) m.getContent());
     } catch (MessagingException e) {

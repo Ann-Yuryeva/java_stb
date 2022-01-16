@@ -15,7 +15,7 @@ public class DbHelper {
   private final SessionFactory sessionFactory;
   private ApplicationManager app;
 
-  public DbHelper (ApplicationManager app) {
+  public DbHelper(ApplicationManager app) {
     // A SessionFactory is set up once for an application!
     final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
             .configure() // configures settings from hibernate.cfg.xml

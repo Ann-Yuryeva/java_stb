@@ -31,7 +31,7 @@ public class TestBase {
     MantisConnectPortType mc = SoapHelper.getMantisConnect();
     IssueData issueStatusById = mc.mc_issue_get("administrator", "root", BigInteger.valueOf(issueId));
     String issueStatus = app.soap().getIssuesStatus(issueId);
-    if  ((STATUS_RESOLVED.equals(issueStatusById.getStatus().getName()))||(STATUS_CLOSED.equals(issueStatusById.getStatus().getName()))){
+    if ((STATUS_RESOLVED.equals(issueStatusById.getStatus().getName())) || (STATUS_CLOSED.equals(issueStatusById.getStatus().getName()))) {
       return false;
     }
     return true;
