@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03d48a0e-dca7-4380-bc56-b24bf2a01c73" name="Default Changelist" comment="Hw 20 Реализована интеграция тестов с баг-трекером Bugify">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/addressbook-web-tests">
+      <ProjectState>
+        <dataType path="$PROJECT_DIR$/addressbook-web-tests">
+          <ModuleState>
+            <id value="com.intellij.openapi.externalSystem.model.project.ContentRootData" />
+          </ModuleState>
+        </dataType>
+      </ProjectState>
+    </projectState>
+    <projectState path="$PROJECT_DIR$/github-sample">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mantis-tests">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/rest-sample">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/sandbox">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/soap-sample">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/sandbox">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/addressbook-web-tests">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/github-sample">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sandbox" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="17ee3382-a97e-42c0-ab33-aa652c15d848" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uuYC4QMNKtlkrewrFoTeyfpWkJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="jdk1.8.0_291" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mantis-tests/src/test/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.13422818" />
+    <property name="project.structure.side.proportion" value="0.18478262" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vcs.patch.path" value="$USER_HOME$/Desktop/Работа" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.mantis.appmanager" />
+      <recent name="ru.stqa.pft.addressbook.appmanager" />
+      <recent name="ru.stqa.pft.addressbook" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.stqa.pft.sandbox" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.stqa.pft.rest" />
+      <recent name="ru.stqa.pft.mantis.tests" />
+      <recent name="ru.stqa.pft.mantis.model" />
+      <recent name="ru.stqa.pft.mantis.appmanager" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mantis-tests/src/test/resources" />
+      <recent name="$PROJECT_DIR$/addressbook-web-tests/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Equality">
+    <configuration name="Equality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.Equality" />
+      <module name="sandbox.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.sandbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFirstProgram" />
+      <module name="sandbox.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.sandbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/github-sample" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.github.GithubTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GithubTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="github-sample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.github" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.github.GithubTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.stqa.pft.rest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-sample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.rest" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyFirstProgram" />
+      <item itemvalue="Application.Equality" />
+      <item itemvalue="Gradle.GithubTests" />
+      <item itemvalue="TestNG.ru.stqa.pft.rest" />
+      <item itemvalue="TestNG.GithubTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Equality" />
+        <item itemvalue="Application.MyFirstProgram" />
+        <item itemvalue="TestNG.GithubTests" />
+        <item itemvalue="Gradle.GithubTests" />
+        <item itemvalue="TestNG.ru.stqa.pft.rest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03d48a0e-dca7-4380-bc56-b24bf2a01c73" name="Default Changelist" comment="" />
+      <created>1625516809654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625516809654</updated>
+      <workItem from="1625516810903" duration="1270000" />
+      <workItem from="1625843534648" duration="18799000" />
+      <workItem from="1626111238184" duration="165000" />
+      <workItem from="1626900682186" duration="873000" />
+      <workItem from="1626901649209" duration="5000" />
+      <workItem from="1626901668607" duration="40000" />
+      <workItem from="1626901720475" duration="1616000" />
+      <workItem from="1626905377999" duration="261000" />
+      <workItem from="1626977232219" duration="273000" />
+      <workItem from="1626977518848" duration="174000" />
+      <workItem from="1626977706997" duration="427000" />
+      <workItem from="1626978196794" duration="211000" />
+      <workItem from="1626978423105" duration="165000" />
+      <workItem from="1626978592588" duration="15000" />
+      <workItem from="1626978619862" duration="40000" />
+      <workItem from="1626978752921" duration="290000" />
+      <workItem from="1626979047770" duration="731000" />
+      <workItem from="1626980006265" duration="1651000" />
+      <workItem from="1626981700841" duration="232000" />
+      <workItem from="1627053060691" duration="60000" />
+      <workItem from="1627053261959" duration="609000" />
+      <workItem from="1627058003865" duration="28000" />
+      <workItem from="1627058150278" duration="233000" />
+      <workItem from="1627058463466" duration="186000" />
+      <workItem from="1627059181333" duration="1213000" />
+      <workItem from="1627061035017" duration="15000" />
+      <workItem from="1627061067665" duration="968000" />
+      <workItem from="1627062241275" duration="150000" />
+      <workItem from="1627062394261" duration="2129000" />
+      <workItem from="1627064942737" duration="4760000" />
+      <workItem from="1627156065727" duration="180000" />
+      <workItem from="1627301725745" duration="1090000" />
+      <workItem from="1627812373352" duration="96000" />
+      <workItem from="1627812539754" duration="159000" />
+      <workItem from="1627812705421" duration="3398000" />
+      <workItem from="1627849956250" duration="33759000" />
+      <workItem from="1628166153334" duration="7000" />
+      <workItem from="1628196486465" duration="2642000" />
+      <workItem from="1628435273022" duration="23974000" />
+      <workItem from="1629017265434" duration="44557000" />
+      <workItem from="1629111784504" duration="40744000" />
+      <workItem from="1630006091539" duration="112815000" />
+      <workItem from="1631797100062" duration="144000" />
+      <workItem from="1632407035916" duration="119000" />
+      <workItem from="1632410498606" duration="247000" />
+      <workItem from="1632467986689" duration="228000" />
+      <workItem from="1632562604804" duration="3000" />
+      <workItem from="1632565103156" duration="14013000" />
+      <workItem from="1633291060242" duration="880000" />
+      <workItem from="1634191611512" duration="154000" />
+      <workItem from="1634227614991" duration="178000" />
+      <workItem from="1634227835648" duration="3883000" />
+      <workItem from="1634499257142" duration="6840000" />
+      <workItem from="1634900607150" duration="344000" />
+      <workItem from="1635252239137" duration="1000" />
+      <workItem from="1635252244788" duration="230000" />
+      <workItem from="1635316352299" duration="190000" />
+      <workItem from="1635359102715" duration="797000" />
+      <workItem from="1637317011725" duration="209000" />
+      <workItem from="1637782517427" duration="16880000" />
+      <workItem from="1638205663757" duration="25186000" />
+      <workItem from="1639048113021" duration="9497000" />
+      <workItem from="1639923602741" duration="377000" />
+      <workItem from="1640025372191" duration="7162000" />
+      <workItem from="1640097199003" duration="30436000" />
+      <workItem from="1641480091740" duration="25392000" />
+      <workItem from="1641651285322" duration="4878000" />
+      <workItem from="1642260348580" duration="8842000" />
+      <workItem from="1642345708002" duration="150000" />
+      <workItem from="1642346065606" duration="12829000" />
+      <workItem from="1642426354087" duration="3087000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1630525789233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630525789233</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1630525896767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630525896767</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1634041607602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634041607602</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1640035408362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640035408362</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1640352309645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640352309645</updated>
+    </task>
+    <task id="LOCAL-00006" summary="unnamed">
+      <created>1640795527712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640795527712</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Hw 18 Реализован тест для смены пароля в MantisBT">
+      <created>1641126162105</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641126162105</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Hw 18 Реализован тест для смены пароля в MantisBT">
+      <created>1641408189584</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641408189584</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Hw 18 Реализован тест для смены пароля в MantisBT">
+      <created>1642342509885</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642342509885</updated>
+    </task>
+    <task id="LOCAL-00010" summary="9.5 подключение RestAssured и преобразование методов">
+      <created>1642342596703</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642342596703</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Hw 18 Реализован тест для смены пароля в MantisBT">
+      <created>1642354028856</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642354028856</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Hw 18 Реализован тест для смены пароля в MantisBT">
+      <created>1642354790190</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642354790190</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Hw 18 Реализован тест для смены пароля в MantisBT">
+      <created>1642355162309</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642355162309</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="unnamed" />
+    <MESSAGE value="9.5 подключение RestAssured и преобразование методов" />
+    <MESSAGE value="Hw 20 Реализована интеграция тестов с баг-трекером Bugify" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hw 20 Реализована интеграция тестов с баг-трекером Bugify" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Project_Structure" timestamp="1641412172849">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1641412172849" />
+    <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1641726674835">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1641726674835" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642260529212">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1642260529212" />
+    <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1638129525707">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1638129525707" />
+    <state x="580" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1642259207876">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="580" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1642259207876" />
+    <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1634500648524">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="689" y="421" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1634500648524" />
+    <state x="578" y="279" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1642347697687">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1642347697687" />
+    <state x="546" y="104" width="678" height="579" key="#xdebugger.evaluate" timestamp="1640296172669">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="546" y="104" width="678" height="579" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1640296172669" />
+    <state x="419" y="127" key="CommitChangelistDialog2" timestamp="1642355162132">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="419" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1642355162132" />
+    <state x="419" y="137" key="CommitChangelistDialog2/0.23.1680.944@0.23.1680.944" timestamp="1640352309682" />
+    <state width="566" height="519" key="DebuggerActiveHint" timestamp="1638131806190">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="566" height="519" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1638131806190" />
+    <state x="100" y="0" width="1480" height="1050" key="DiffContextDialog" timestamp="1642355207991">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="0" width="1480" height="1050" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1642355207991" />
+    <state x="100" y="0" width="1480" height="1050" key="DiffContextDialog/0.23.1680.944@0.23.1680.944" timestamp="1642354944512" />
+    <state x="475" y="438" key="GitRewordDialog" timestamp="1642355246894">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="475" y="438" key="GitRewordDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1642355246894" />
+    <state x="682" y="465" key="Github.Dialog.Accounts.Choose" timestamp="1642355413499">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="682" y="465" key="Github.Dialog.Accounts.Choose/0.0.1680.1050@0.0.1680.1050" timestamp="1642355413499" />
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1642454911207">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1642429499957" />
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1642454911207" />
+    <state width="1638" height="414" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1638138282065" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center" timestamp="1642454911206">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1642429499956" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1642454911206" />
+    <state width="1638" height="414" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1638138282064" />
+    <state width="1638" height="253" key="GridCell.Tab.0.left" timestamp="1642454911206">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1642429499955" />
+    <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1642454911206" />
+    <state width="1638" height="414" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1638138282063" />
+    <state width="1638" height="253" key="GridCell.Tab.0.right" timestamp="1642454911207">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1642429499957" />
+    <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1642454911207" />
+    <state width="1638" height="414" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1638138282064" />
+    <state width="1638" height="307" key="GridCell.Tab.1.bottom" timestamp="1642426347669">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="307" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1642426347669" />
+    <state width="1638" height="307" key="GridCell.Tab.1.bottom/0.23.1680.944@0.23.1680.944" timestamp="1642334546310" />
+    <state width="1638" height="307" key="GridCell.Tab.1.bottom/0.23.1680.949@0.23.1680.949" timestamp="1638137956953" />
+    <state width="1638" height="307" key="GridCell.Tab.1.center" timestamp="1642426347669">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="307" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1642426347669" />
+    <state width="1638" height="307" key="GridCell.Tab.1.center/0.23.1680.944@0.23.1680.944" timestamp="1642334546309" />
+    <state width="1638" height="307" key="GridCell.Tab.1.center/0.23.1680.949@0.23.1680.949" timestamp="1638137956952" />
+    <state width="1638" height="307" key="GridCell.Tab.1.left" timestamp="1642426347668">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="307" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1642426347668" />
+    <state width="1638" height="307" key="GridCell.Tab.1.left/0.23.1680.944@0.23.1680.944" timestamp="1642334546309" />
+    <state width="1638" height="307" key="GridCell.Tab.1.left/0.23.1680.949@0.23.1680.949" timestamp="1638137956951" />
+    <state width="1638" height="307" key="GridCell.Tab.1.right" timestamp="1642426347669">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="307" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1642426347669" />
+    <state width="1638" height="307" key="GridCell.Tab.1.right/0.23.1680.944@0.23.1680.944" timestamp="1642334546310" />
+    <state width="1638" height="307" key="GridCell.Tab.1.right/0.23.1680.949@0.23.1680.949" timestamp="1638137956952" />
+    <state x="168" y="108" key="MergeDialog" timestamp="1642425605920">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="168" y="94" key="MergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1642343187685" />
+    <state x="168" y="108" key="MergeDialog/0.23.1680.944@0.23.1680.944" timestamp="1642425605920" />
+    <state x="414" y="155" key="NewModule_or_Project.wizard" timestamp="1641409992729">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="414" y="155" key="NewModule_or_Project.wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1641409992729" />
+    <state x="618" y="241" key="RollbackChangesDialog" timestamp="1642425743939">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="618" y="243" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1642342490248" />
+    <state x="618" y="241" key="RollbackChangesDialog/0.23.1680.944@0.23.1680.944" timestamp="1642425743939" />
+    <state x="0" y="36" width="1605" height="837" key="SettingsEditor" timestamp="1642429349306">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="0" y="36" width="1605" height="837" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1642429349306" />
+    <state x="0" y="55" key="SettingsEditor/0.23.1680.944@0.23.1680.944" timestamp="1642425551403" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1642355264878">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1642355264878" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1638737579289">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.944@0.23.1680.944" timestamp="1638737579289" />
+    <state x="544" y="426" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1642258847695">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="544" y="426" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1680.1050@0.0.1680.1050" timestamp="1642258847695" />
+    <state x="578" y="285" key="extract.method.dialog" timestamp="1641655599852">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="285" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1641655599852" />
+    <state x="498" y="287" width="985" height="486" key="find.popup" timestamp="1642353677444">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="498" y="287" width="985" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1642353677444" />
+    <state x="602" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1641674028181">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="602" y="148" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1641674028181" />
+    <state x="505" y="248" width="670" height="675" key="run.anything.popup" timestamp="1641652826627">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="248" width="670" height="675" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1641652826627" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1642350092566">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1642350092566" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.944@0.23.1680.944" timestamp="1637783631065" />
+    <state x="386" y="240" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1642425585396">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="386" y="241" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1642343174805" />
+    <state x="386" y="240" key="vcs.ApplyPatchDifferentiatedDialog/0.23.1680.944@0.23.1680.944" timestamp="1642425585396" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/soap-sample/src/test/java/ru/stqa/pft/soap/GeoIpServiceTests.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/soap-sample/src/test/java/ru/stqa/pft/soap/GeoIpServiceTests.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
