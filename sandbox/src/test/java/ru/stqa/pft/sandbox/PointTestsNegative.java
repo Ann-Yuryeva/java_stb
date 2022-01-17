@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class PointTestsNegative {
 
-  @Test
+  @Test(enabled = false)
   public void testDistance(){
 
     Point p1 = new Point(10,11);
