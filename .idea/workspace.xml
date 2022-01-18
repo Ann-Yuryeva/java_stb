@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03d48a0e-dca7-4380-bc56-b24bf2a01c73" name="Default Changelist" comment="Hw 20 Реализована интеграция тестов с баг-трекером Bugify">
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/resources/remote.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/out/test/resources/testng-groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/out/test/resources/testng-groups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/resources/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,7 +374,7 @@
       <workItem from="1642345708002" duration="150000" />
       <workItem from="1642346065606" duration="12829000" />
       <workItem from="1642426354087" duration="3087000" />
-      <workItem from="1642458085367" duration="3927000" />
+      <workItem from="1642458085367" duration="5287000" />
     </task>
     <task id="LOCAL-00001">
       <created>1630525789233</created>
