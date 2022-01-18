@@ -13,7 +13,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactDeletionTests extends TestBase {
 
-
   @BeforeMethod
   public void ensurePreconditions() {
     Groups groups = app.db().groups();
