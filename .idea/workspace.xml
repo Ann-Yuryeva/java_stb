@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03d48a0e-dca7-4380-bc56-b24bf2a01c73" name="Default Changelist" comment="Hw 20 Реализована интеграция тестов с баг-трекером Bugify" />
+    <list default="true" id="03d48a0e-dca7-4380-bc56-b24bf2a01c73" name="Default Changelist" comment="Hw 20 Реализована интеграция тестов с баг-трекером Bugify">
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/resources/remote.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/out/test/resources/testng-groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/out/test/resources/testng-groups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/resources/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +144,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="jdk1.8.0_291" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mantis-tests/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests/src/test/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -155,13 +161,12 @@
     <property name="vcs.patch.path" value="$USER_HOME$/Desktop/Работа" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.stqa.pft.mantis.appmanager" />
-      <recent name="ru.stqa.pft.addressbook.appmanager" />
-      <recent name="ru.stqa.pft.addressbook" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.stqa.pft.sandbox" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/addressbook-web-tests/src/test/resources" />
+      <recent name="$PROJECT_DIR$/mantis-tests/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.stqa.pft.rest" />
@@ -169,9 +174,10 @@
       <recent name="ru.stqa.pft.mantis.model" />
       <recent name="ru.stqa.pft.mantis.appmanager" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mantis-tests/src/test/resources" />
-      <recent name="$PROJECT_DIR$/addressbook-web-tests/src/test/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.mantis.appmanager" />
+      <recent name="ru.stqa.pft.addressbook.appmanager" />
+      <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -179,7 +185,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Equality">
+  <component name="RunManager" selected="TestNG.GroupModificationTests">
     <configuration name="Equality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.Equality" />
       <module name="sandbox.main" />
@@ -243,16 +249,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.stqa.pft.rest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rest-sample.test" />
+    <configuration name="GroupModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.rest.*" />
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.rest" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupModificationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -263,16 +270,16 @@
       <item itemvalue="Application.MyFirstProgram" />
       <item itemvalue="Application.Equality" />
       <item itemvalue="Gradle.GithubTests" />
-      <item itemvalue="TestNG.ru.stqa.pft.rest" />
       <item itemvalue="TestNG.GithubTests" />
+      <item itemvalue="TestNG.GroupModificationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupModificationTests" />
         <item itemvalue="Application.Equality" />
         <item itemvalue="Application.MyFirstProgram" />
         <item itemvalue="TestNG.GithubTests" />
         <item itemvalue="Gradle.GithubTests" />
-        <item itemvalue="TestNG.ru.stqa.pft.rest" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +376,7 @@
       <workItem from="1642345708002" duration="150000" />
       <workItem from="1642346065606" duration="12829000" />
       <workItem from="1642426354087" duration="3087000" />
-      <workItem from="1642458085367" duration="786000" />
+      <workItem from="1642458085367" duration="3927000" />
     </task>
     <task id="LOCAL-00001">
       <created>1630525789233</created>
@@ -497,10 +504,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1641726674835" />
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642260529212">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642503382168">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1642260529212" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1642503382168" />
     <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1638129525707">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -543,28 +550,28 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="682" y="465" key="Github.Dialog.Accounts.Choose/0.0.1680.1050@0.0.1680.1050" timestamp="1642355413499" />
-    <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1642454911207">
-      <screen x="0" y="23" width="1680" height="944" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1642493433953">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1642429499957" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1642493433953" />
     <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1642454911207" />
     <state width="1638" height="414" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1638138282065" />
-    <state width="1638" height="253" key="GridCell.Tab.0.center" timestamp="1642454911206">
-      <screen x="0" y="23" width="1680" height="944" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1642493433952">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1642429499956" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1642493433952" />
     <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1642454911206" />
     <state width="1638" height="414" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1638138282064" />
-    <state width="1638" height="253" key="GridCell.Tab.0.left" timestamp="1642454911206">
-      <screen x="0" y="23" width="1680" height="944" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1642493433951">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1642429499955" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1642493433951" />
     <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1642454911206" />
     <state width="1638" height="414" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1638138282063" />
-    <state width="1638" height="253" key="GridCell.Tab.0.right" timestamp="1642454911207">
-      <screen x="0" y="23" width="1680" height="944" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1642493433953">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1642429499957" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1642493433953" />
     <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1642454911207" />
     <state width="1638" height="414" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1638138282064" />
     <state width="1638" height="307" key="GridCell.Tab.1.bottom" timestamp="1642426347669">
@@ -626,10 +633,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="285" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1641655599852" />
-    <state x="498" y="287" width="985" height="486" key="find.popup" timestamp="1642353677444">
+    <state x="498" y="287" width="985" height="486" key="find.popup" timestamp="1642491715501">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="498" y="287" width="985" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1642353677444" />
+    <state x="498" y="287" width="985" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1642491715501" />
     <state x="602" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1641674028181">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
