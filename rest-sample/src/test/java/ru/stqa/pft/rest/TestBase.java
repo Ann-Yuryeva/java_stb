@@ -13,31 +13,25 @@ import java.util.Set;
 
 public class TestBase {
 
-  private static final String STATUS_RESOLVED = "resolved"; //2
-  private static final String STATE_CLOSED = "closed"; //3
+  private static final String STATE_RESOLVED = "Resolved"; //2
+  private static final String STATE_CLOSED = "Closed"; //3
 
   private Executor getExecutor() {
     return Executor.newInstance().auth("288f44776e7bec4bf44fdfeb1e646490", "");
   }
 
-  public String getStateByIssueId(int id) throws IOException {
-    String issueById = getExecutor().execute(Request.Get(String.format("https://bugify.stqa.ru/api/issues/%s.json", id))).returnContent().asString();
+  public boolean isIssueOpen(int issueId) throws IOException {
+    String issueById = getExecutor().execute(Request.Get(String.format("https://bugify.stqa.ru/api/issues/%s.json", issueId))).returnContent().asString();
     JsonElement parsed = new JsonParser().parse(issueById);
     JsonElement jsonIssues = parsed.getAsJsonObject().get("issues");
     Set<Issue> setIssues = new Gson().fromJson(jsonIssues, new TypeToken<Set<Issue>>() {
     }.getType());
     Issue selectedIssue = setIssues.iterator().next();
-    String stateIssue = selectedIssue.getState();
-    System.out.println("state_name = " + stateIssue);
-    return stateIssue;
-  }
-
-  public boolean isIssueOpen(int issueId) throws IOException {
-    String issueStatus = getStateByIssueId(issueId);
-    if (issueStatus.equals(STATE_CLOSED) || issueStatus.equals(STATUS_RESOLVED)) {
-      return true;
+    System.out.println("state_name = " + selectedIssue.getState());
+    if (STATE_RESOLVED.equals(selectedIssue.getState()) || (STATE_CLOSED.equals(selectedIssue.getState()))) {
+      return false;
     }
-    return false;
+      return true;
   }
 
   public void skipIfNotFixed(int issueId) throws IOException {
